@@ -111,7 +111,7 @@ st.write("Reading data without table")
 if d is not None:
     st.dataframe(d)
 
-df = pd.read_csv(r"C:\Users\Chary Mattela\Desktop\Python\STREAMLIT\Products.csv")
+df = pd.read_csv("Products.csv")
 if df is not None:
     st.write("Reading data with table")
     st.table(df.head())
